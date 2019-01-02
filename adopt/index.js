@@ -70,7 +70,7 @@ function cardGen(dogs){
         
 }
 
-
+document.getElementById('adoption').addEventListener('click', function(e))
 cardGen(dogs)
 
 document.querySelector('#filterSort').addEventListener('change', function(e){filterCards(e)})
